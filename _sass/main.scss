@@ -96,13 +96,13 @@ textarea {
 
 $font-stack-body: sofia-pro, sans-serif;
 $font-stack-bighead: rig-solid-bold-halftone, sans-serif;
-$font-stack-headings: sofia-pro-soft, sans-serif;
 $font-stack-student: rig-solid-bold-fill, sans-serif;
-$primary-color: #ff5470;
-$secondary-color: #fde24f;
-$tertiary-color: #47A8BD;
-$dark-color: #1a1a1a;
-$light-color: white;
+$font-stack-headings: sofia-pro-soft, sans-serif;
+$primary-color: #E148FF; //lightish
+$secondary-color: #6ECDDC;
+$dark-color: #272727;
+$light-color: #FFFFFB;
+$error-color: #FF6B6C;
 * {
   box-sizing: border-box;
 }
@@ -142,7 +142,7 @@ ul {
   padding: 0;
 }
 li {
-  padding: 0 25px 0 0;
+  padding: 0 0 0 0;
   margin: 15px 0 0;
   text-transform: uppercase;
   letter-spacing: .05rem;
@@ -251,8 +251,14 @@ main, #head-contain {
 }
 .arrows {
   grid-area: ar;
-  background-color: $primary-color;
+  min-height: 200px;
   overflow: hidden;
+  background: url(../img/background.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: $primary-color;
 }
 .due-box {
   grid-area: wd;
@@ -260,22 +266,6 @@ main, #head-contain {
   padding: 5vw;
   background-color: $dark-color;
   color: $light-color;
-}
-.pattern-container {
-  width: 300%;
-  margin: -5px -25px;
-  display: flow-root;
-}
-.pattern-container div {
-  float: left;
-  font-size: 50px;
-  margin: 0 10px;
-}
-.pattern-container div.row-even, div.row-odd {
-  margin-top: -25px;
-}
-.pattern-container div.row-even {
-  margin-left: -20px;
 }
 .about {
   width: 90vw;
@@ -291,6 +281,11 @@ section {
   width: 100%;
   margin: 50px 0;
 }
+.student, .tutorial {
+  padding: 15px;
+  border: 3px solid $dark-color;
+  cursor: pointer;
+}
 .student {
   margin: 0;
   padding: 0;
@@ -299,32 +294,34 @@ section {
 }
 .student p {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.7rem;
   margin: 0;
   padding: 25px 0;
   // line-height: 3rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.student:hover a {
-  color: $dark-color;
-}
-.student, .tutorial {
-  // padding: 15px;
-  border: 3px solid $dark-color;
-  cursor: pointer;
-}
 .student:hover, .tutorial:hover {
-  background-color: $secondary-color;
+  background-color: $primary-color;
+}
+.student.no-link, .student.no-link:hover {
+  border-color: $error-color;
+  background-color: $light-color;
+  cursor: default;
+}
+.student.username, .student.username:hover {
+  border-color: $secondary-color;
+  background-color: $light-color;
+  cursor: default;
 }
 .student:nth-child(3n+3) {
   margin-right: 0;
 }
-.student a, .tutorial a, .tutorial p, .tutorial h5 {
+.tutorial a, .tutorial p, .tutorial h5 {
   transition: color .5s ease;
 }
 .tutorial:hover a, .tutorial:hover p, .tutorial:hover h5 {
-  color: $light-color;
+  color: $dark-color;
 }
 section.projects {
   display: block;
@@ -366,8 +363,10 @@ p {
 .description {
   margin-bottom: 25px;
 }
-.section-title {
+.section-title, .page-title {
   grid-column: span 1;
+}
+.section-title {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: $light-color;
@@ -430,7 +429,7 @@ h1 {
 }
 .interior h2.page-title {
   font-family: $font-stack-bighead;
-  font-size: 4em;
+  font-size: 3.5em;
 }
 h2 {
   font-size: 2.441em;
@@ -459,6 +458,9 @@ h2.section-title {
   color: $light-color;
   margin-top: 5px;
   letter-spacing: 1px;
+}
+.home-due h4.update {
+  color: $secondary-color;
 }
 .home-due h5 {
   color: $light-color;
@@ -490,7 +492,7 @@ h5 {
   padding: 3px 3px;
 }
 .due {
-  color: $tertiary-color;
+  color: $error-color;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -504,7 +506,7 @@ ul.date-list {
   list-style-type: none;
 }
 .date {
-  color: $tertiary-color;
+  color: $secondary-color;
 }
 .spoiler {
   color: white;
@@ -550,6 +552,154 @@ hr {
 .due-box hr {
   border-top: 3px dotted $primary-color;
   margin: 25px 0;
+}
+// form styles
+form {
+  width: 100%;
+}
+label {
+  font-size: 1.2em;
+}
+label, input, textarea {
+  width: 100%;
+}
+input, textarea {
+  margin: 5px 0 25px;
+  padding: 3px;
+  font-family: $font-stack-body;
+  border: 2px solid $dark-color;
+}
+input#portrait-but {
+  border: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+input.slider {
+  border: none;
+}
+input:focus, textarea:focus, form.submitted input:invalid:focus, form.submitted textarea:invalid:focus {
+  outline: none;
+  border: 2px solid $primary-color;
+  box-shadow: 0 0 5px $primary-color;
+}
+.slidecontainer input:focus {
+  outline: none;
+  border: 2px solid $secondary-color;
+  box-shadow: 0 0 5px $secondary-color;
+}
+textarea {
+  height: 100px;
+}
+form button {
+  margin: 70px 0 0;
+  font-size: 2em;
+  padding: 3px 15px 5px 14px;
+  transition: .5s;
+}
+form button#sub-but , form button#sub-but:visited, form button#sub-but:visited, form button#sub-but:hover {
+  color: $dark-color;
+}
+form button:hover {
+  background-color: $primary-color;
+}
+input::file-selector-button  {
+  padding: 3px 7px 5px 6px;
+}
+form button, input::file-selector-button  {
+  border: 2px solid $dark-color;
+  background: none;
+  font-family: $font-stack-headings;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+  margin: 0 0 25px 0;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: $secondary-color;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: $dark-color;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: $dark-color;
+  cursor: pointer;
+  opacity: 0;
+}
+.slide-clicked::-webkit-slider-thumb {
+  opacity: 1;
+}
+.slide-clicked::-moz-range-thumb {
+  opacity: 1;
+}
+.slide-invalid {
+  background-color: tomato;
+}
+ul.range-labels {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.range-labels li {
+  font-size: .8em;
+  margin-top: 0;
+}
+.label-center {
+  text-align: center;
+}
+.label-right {
+  text-align: right;
+}
+form.submitted input:invalid, form.submitted textarea:invalid, form.submitted input#portrait-but:invalid::file-selector-button {
+  border: 2px solid tomato;
+}
+form.submitted .special input#portrait-but:invalid {
+  border: none !important;
+}
+p#warning {
+  font-size: .8em;
+  margin: 10px 0 25px;
+}
+.w-hidden {
+  visibility: hidden;
 }
  /* ==========================================================================
    Helper classes
@@ -637,11 +787,6 @@ hr {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media only screen and (max-width: 400px) {
-  .pattern-container {
-    width: 1200px;
-  }
-}
  @media only screen and (min-width: 520px) {
    header {
      position: relative;
@@ -661,8 +806,11 @@ hr {
      grid-gap: 2.5vw 2.5vw;
      margin: 50px 0;
    }
-   .section-title {
+   .section-title, .page-title {
      grid-column: span 2;
+   }
+   .student p {
+     font-size: 2.2rem;
    }
    h1 a, h1 a:hover, h1 a:active, h1 a:visited {
      color: $dark-color;
@@ -695,13 +843,13 @@ hr {
    }
 }
 @media only screen and (min-width: 620px) {
-  .pattern-container {
-    width: 200%;
+  .student p {
+    font-size: 2.7rem;
   }
 }
 @media only screen and (min-width: 630px) {
   h1 {
-    font-size: 16vw;
+    font-size: 20vw;
     line-height: .9em;
     padding: 20px 0 0 0;
     margin-left: -6px;
@@ -748,7 +896,7 @@ hr {
     width: 75%;
   }
   h1 {
-    font-size: 16vw;
+    font-size: 20vw;
     line-height: .9em;
     padding: 20px 0 0 0;
     margin-left: -9px;
@@ -761,26 +909,12 @@ hr {
       display: flow-root;
     }
     #top-content {
-      min-height: 500px;
-      height: 85vh;
       grid-template-columns: 29vw 29vw 1fr;
       grid-template-rows: max-content max-content;
       gap: 0;
       grid-template-areas:
         "pi pi wd"
         "ar ar wd";
-    }
-    .pattern-container {
-      width: 200%;
-    }
-    .pattern-container div {
-      font-size: 50px;
-    }
-    .pattern-container div.row-even, div.row-odd {
-      margin-top: -27px;
-    }
-    .pattern-container div.row-even {
-      margin-left: -22px;
     }
     .tutorial-page {
       width: 600px;
@@ -808,8 +942,8 @@ hr {
       grid-gap: 2.5vw 2.5vw;
       margin: 50px 0;
     }
-    .section-title {
-      grid-column: span 3;
+    .section-title, .page-title {
+      grid-column: span 4;
     }
     h1 {
       font-size: 12vw;
@@ -825,26 +959,12 @@ hr {
       left: 0;
     }
     #top-content {
-      min-height: 600px;
-      height: 85vh;
       grid-template-columns: 22vw 22vw 22vw 1fr;
       grid-template-rows: max-content max-content;
       gap: 0;
       grid-template-areas:
         "pi pi pi wd"
         "ar ar ar wd";
-    }
-    .pattern-container {
-      width: 200%;
-    }
-    .pattern-container div {
-      font-size: 66px;
-    }
-    .pattern-container div.row-even, div.row-odd {
-      margin-top: -25px;
-    }
-    .pattern-container div.row-even {
-      margin-left: -29px;
     }
     section {
       display: grid;
@@ -856,11 +976,11 @@ hr {
       width: 500px;
       padding: 40px;
     }
-    .section-title {
+    .section-title, .page-title {
       grid-column: span 4;
     }
     h1 {
-      font-size: 14vw;
+      font-size: 9vw;
       line-height: .9em;
       padding: 20px 0 0 0;
       margin-left: -10px;
@@ -881,6 +1001,7 @@ hr {
       font-size: 10vw;
     }
 }
+
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
@@ -888,6 +1009,87 @@ hr {
     /* Style adjustments for high resolution devices */
 }
 
+/* ============================================
+   Temporary Styles
+   ============================================ */
+body {
+  background-color: $light-color;
+}
+.temp-form {
+  padding: 50px 12.5vw;
+  color: $dark-color;
+}
+.temp-header {
+  background-color: $dark-color;
+  padding: 50px 12.5vw;
+}
+.temp-header h1 {
+  color: $light-color;
+  text-align: center;
+}
+.temp-thanks, #random-list {
+  background-color: $primary-color;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 25vh 50px;
+}
+.temp-thanks h1, .temp-thanks h2 {
+  color: $dark-color;
+  text-align: center;
+}
+.temp-thanks h2 {
+  font-size: 1.5em;
+}
+#random-list {
+  padding-top: 50px;
+}
+#random-list a, #random-list a:visited, #random-list a:active {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 4px solid $dark-color;
+  padding: 2px 7px 5px;
+  transition: 1s background-color ease;
+}
+#random-list a:hover {
+  cursor: pointer;
+  background-color: $secondary-color;
+}
+#generate {
+  text-align: center;
+  margin: 25px 0;
+}
+#random-list ol {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  width: 220px;
+}
+#random-list li {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 5px 0;
+  float: none;
+}
+@media only screen and (min-width: 768px) {
+  .temp-form {
+    padding: 50px 20vw;
+  }
+  .temp-thanks h2 {
+    font-size: 3em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .temp-form {
+    padding: 50px 25vw;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .temp-form {
+    padding: 50px 30vw;
+  }
+}
 
 /* ==========================================================================
    Print styles.
