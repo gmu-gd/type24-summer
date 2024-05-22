@@ -6,12 +6,13 @@ title: Schedule
 
 This schedule is a rough outline for class each week. It is very subject to change but will reflect the most current schedule.
 
-### August 23 &mdash; Week 1
+### May 28 &mdash; Day 1
 #### Outline for the Day
 * Intros
 * [E0: name.png]({{ site.baseurl }}/projects#e0)
-* Overviews (slides)
-* Syllabus
+* Overview (slides)
+* Syllabus and Grades
+* Critique
 * Letterforms (slides)
 * [P1: Paper Letters]({{ site.baseurl }}/projects/p1/)
 
@@ -23,67 +24,63 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### August 30 &mdash; Week 2
-#### Outline for the Das
+### May 30 &mdash; Day 2
+#### Outline for the Day
 * Share P1
-* Introduce Miro
+* Introduce Figma
 * Anatomy of Letters (Slides)
 * Cutting (Demo)
 * Type Classification (Slides)
 * Matching Game
 * Type Styles (Slides)
+* [E1: Letter Cropping]({{ site.baseurl }}/projects#e1)
 
 #### Due Next Class
 * P1.2: Paper name
+* E1: Letter Cropping
 
 ---
 
-### September 6 &mdash; Week 3
+### June 4 &mdash; Day 3
 #### Outline for the Day
 * P1: Critique of Names
 * Printing with Crop Marks (Demo)
 * Words (Slides)
 * Vector Drawing (Demo)
 * Choosing a Typeface (Slides)
-<!-- * E1: Letter Cropping -->
-* [E1: Letter Cropping]({{ site.baseurl }}/projects#e1)
+* [E2: Physical Grids]({{ site.baseurl }}/projects#e2)
 
 #### Resources
 * Typetogether: [How to Choose the Right Typeface.](https://www.type-together.com/how-to-choose-the-right-typeface)
 
 #### Due Next Class
-* E1: Letter Cropping
+* E2: Physical Grids
 * P1 Final: Vector name
 
 ---
 
-### September 13 &mdash; Week 4
+### June 6 &mdash; Day 4
 #### Outline for the Day
 * Printing at Mason (Demo)
 * Sentences (Slides)
 * Physical Grids (Demo)
 * Hierarchy (Slides)
-<!-- * E2: Physical Grids -->
-* [E2: Physical Grids]({{ site.baseurl }}/projects#e2)
-<!-- * E3: Translations -->
 * [E3: Translations]({{ site.baseurl }}/projects#e3)
 * P1: Final Critique
-* P2: Type Specimen
+* [P2: Type Specimen]({{ site.baseurl }}/projects/p2/)
 
 #### Due Next Class
-* E2: Physical Grids
 * E3: Translations
 * P2.1: First draft of spread
 
 ---
 
-### September 20 &mdash; Week 5
+### June 11 &mdash; Day 5
 #### Outline for the Day
 * P2: Critique
 * Paragraphs I (Slides)
 * Digital Grids (Demo)
 * Spot the Difference
-<!-- * E4: Found Letter Composition -->
 * [E4: Found Letter Composition]({{ site.baseurl }}/projects#e4)
 
 #### Due Next Class
@@ -92,74 +89,60 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### September 27 &mdash; Week 6
+### June 13 &mdash; Day 6
 #### Outline for the Day
 * P2: Critique
 * Separations (Demo)
 * Paragraphs II (Slides)
-<!-- * E5: In the News -->
 * [E5: In the News]({{ site.baseurl }}/projects#e5)
 
 #### Due Next Class
 * E5: In the News
-* P2 Final: Printed full color and separations
+* P2 Final: Full color and separations
 
 ---
 
-### October 4 &mdash; Week 7
+### June 18 &mdash; Day 7
 #### Outline for the Day
 * P2: Critique
 * Riso Printing (Workshop)
 * [E6: Manipulations]({{ site.baseurl }}/projects#e6)
-<!-- * E6: Manipulations -->
-* [E7: Recipe]({{ site.baseurl }}/projects#e7)
-<!-- * E7: Recipe -->
 * P3: Various
 
 #### Due Next Class
 * E6: Manipulations
-* E7: Recipe
 * P3.1: Choose project
 
 ---
 
-### October 11 &mdash; Week 8
-#### Outline for the Day
-* No Class
-
----
-
-### October 18 &mdash; Week 9
+### June 20 &mdash; Day 8
 #### Outline for the Day
 <!-- * Type History (Slides) -->
-<!-- * Letterpress (Workshop) -->
 * Midterm Kahoot Review
 * InDesign Booklet Demo
-<!-- * E8: Type Sampler -->
-* [E8: Type Sampler]({{ site.baseurl }}/projects#e8)
+* [E7: Recipe]({{ site.baseurl }}/projects#e7)
 
 #### Due Next Class
-* E8: Type Sampler
+* E7: Recipe Sampler
 * P3.2: Various, check project page or Blackboard
 
 ---
 
-### October 25 &mdash; Week 10
+### June 25 &mdash; Day 9
 #### Outline for the Day
 * Work day
+* [E8: Type Sampler]({{ site.baseurl }}/projects#e8)
 <!-- * Web Type (Slides) -->
-<!-- * E9: Type on the Web -->
 
 #### Due Next Class
-<!-- * E9: Type on the Web -->
+* E8: Type Sampler
 * P3.3: Various, check project page or Blackboard
 
 ---
 
-### November 1 &mdash; Week 11
+### June 27 &mdash; Day 10
 #### Outline for the Day
 * P3: Critique
-<!-- * E9: Social Type -->
 * [E9: Social Type]({{ site.baseurl }}/projects#e9)
 
 #### Due Next Class
@@ -168,7 +151,7 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### November 8 &mdash; Week 12
+### July 2 &mdash; Day 11
 #### Outline for the Day
 * Individual Meetings
 
@@ -177,7 +160,16 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### November 15 &mdash; Week 13
+### July 4 &mdash; Day 12
+#### Outline for the Day
+* No class
+
+#### Due Next Class
+* P3.5: Various, check project page or Blackboard
+
+---
+
+### July 9 &mdash; Day 13
 * P3: Critique
 * Bookbinding (Workshop)
 
@@ -186,7 +178,7 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### November 22 &mdash; Week 14
+### July 11 &mdash; Day 14
 #### Outline for the Day
 * P3: Critique
 * Zines (Workshop)
@@ -196,6 +188,6 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### November 29 &mdash; Week 15
+### July 16 &mdash; Week 15
 #### Outline for the Day
 * Final Critiques

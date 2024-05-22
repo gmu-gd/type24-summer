@@ -19,7 +19,7 @@ title: Reference
 * [_Inside Paragraphs_](http://www.insideparagraphs.com/) by Cyrus Highsmith
 * [_Thinking with Type_](https://ellenlupton.com/Thinking-with-Type) by Ellen Lupton
 * [_The Elements of Typographic Style_](https://typographica.org/typography-books/the-elements-of-typographic-style-4th-edition/) by Robert Bringhurst
-* [_A Type Primer_](http://www.atypeprimer.com/) by John Kane
+* [_A Type Primer_](https://us.laurenceking.com/products/a-type-primer) by John Kane
 
 ### Software
 * [Adobe InDesign](https://www.adobe.com/products/indesign.html)
@@ -34,6 +34,5 @@ title: Reference
 * [Colophon Foundry](https://www.colophon-foundry.org/)
 * [Displaay](https://displaay.net/)
 * [Dalton Maag](https://www.daltonmaag.com/)
-* [Fontsmith](https://www.fontsmith.com/)
 * [Vocal Type Co](https://www.vocaltype.co/)
 * [Occupant Fonts](https://occupantfonts.com/)
