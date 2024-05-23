@@ -4,7 +4,7 @@ title: Schedule
 ---
 
 
-This schedule is a rough outline for class each week. It is very subject to change but will reflect the most current schedule.
+This schedule is a rough outline for class each day. It is very subject to change but will reflect the most current schedule.
 
 ### May 28 &mdash; Day 1
 #### Outline for the Day
@@ -188,6 +188,6 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### July 16 &mdash; Week 15
+### July 16 &mdash; Day 15
 #### Outline for the Day
 * Final Critiques

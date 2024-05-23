@@ -4,6 +4,7 @@ $(document).ready(function() {
     nav();
     smoothScroll();
     randomList();
+    
     // run function on resize of the window
     $(window).resize(function() {
 

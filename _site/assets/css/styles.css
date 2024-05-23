@@ -85,7 +85,7 @@ main, #head-contain { width: 90vw; margin: 0 auto; }
 
 .page-info { grid-area: pi; padding: 5vw; }
 
-.arrows { grid-area: ar; min-height: 200px; overflow: hidden; background: url(../img/background.png) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-color: #6ECDDC; }
+.arrows { grid-area: ar; min-height: 200px; overflow: hidden; background: url(../img/background.png) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-color: #8B80F9; }
 
 .due-box { grid-area: wd; grid-template-rows: max-content; padding: 5vw; background-color: #272727; color: #FFFFFB; }
 
@@ -100,8 +100,6 @@ section { display: grid; grid-template-columns: 100%; grid-gap: 5vw; margin: 25p
 .student { margin: 0; padding: 0; font-family: rig-solid-bold-fill, sans-serif; transition: .5s ease; }
 
 .student p { text-align: center; font-size: 2.7rem; margin: 0; padding: 25px 0; text-transform: uppercase; letter-spacing: 1px; }
-
-.student:hover, .tutorial:hover { background-color: #6ECDDC; }
 
 .student.no-link, .student.no-link:hover { border-color: #FF6B6C; background-color: #FFFFFB; cursor: default; }
 
@@ -187,7 +185,7 @@ ul.date-list { padding: 0; margin-left: 0; }
 
 .date-list li { list-style-type: none; }
 
-.date { color: #A9FFCB; }
+.date { color: #8B80F9; }
 
 .spoiler { color: white; white-space: pre-wrap; font-family: monospace; border: 3px solid #272727; margin: 3px 3px; }
 

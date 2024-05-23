@@ -100,6 +100,7 @@ $font-stack-student: rig-solid-bold-fill, sans-serif;
 $font-stack-headings: sofia-pro-soft, sans-serif;
 $primary-color: #6ECDDC; //lightish
 $secondary-color: #A9FFCB;
+$tertiary-color: #8B80F9;
 $dark-color: #272727;
 $light-color: #FFFFFB;
 $error-color: #FF6B6C;
@@ -258,7 +259,7 @@ main, #head-contain {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: $primary-color;
+  background-color: $tertiary-color;
 }
 .due-box {
   grid-area: wd;
@@ -302,7 +303,7 @@ section {
   letter-spacing: 1px;
 }
 .student:hover, .tutorial:hover {
-  background-color: $primary-color;
+  // background-color: $primary-color;
 }
 .student.no-link, .student.no-link:hover {
   border-color: $error-color;
@@ -506,7 +507,7 @@ ul.date-list {
   list-style-type: none;
 }
 .date {
-  color: $secondary-color;
+  color: $tertiary-color;
 }
 .spoiler {
   color: white;
