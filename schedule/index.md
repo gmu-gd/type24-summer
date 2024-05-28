@@ -13,7 +13,6 @@ This schedule is a rough outline for class each day. It is very subject to chang
 <!-- * [E0: name.png]({{ site.baseurl }}/projects#e0) -->
 * Overview (slides)
 * Syllabus and Grades
-* Critique
 * Letterforms (slides)
 * Introduce Figma
 * P1: Paper Letters
@@ -33,6 +32,7 @@ This schedule is a rough outline for class each day. It is very subject to chang
 * Anatomy of Letters (Slides)
 * Cutting (Demo)
 * Type Classification (Slides)
+* Critique
 * Matching Game
 * Type Styles (Slides)
 * E1: Letter Cropping
