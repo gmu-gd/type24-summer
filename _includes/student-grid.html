@@ -1,17 +1,9 @@
 {% for post in site.categories.student reversed%}
-  {% if post.link == false %}
-    {% if post.username == false %}
-      <article class="student no-link">
-        <p>{{ post.title }}</p>
-      </article>
-    {% elsif post.username != false %}
-      <article class="student username">
-        <p>{{ post.title }}</p>
-      </article>
-    {% endif %}    
-  {% elsif post.link != false %}
-    <article class="student">
-      <a href="{{ post.link | absolute_url }}" target="_blank"><p>{{ post.title }}</p></a>
-    </article>
-  {% endif %}
+  <article class="student">
+    {% if post.img == true %}
+      <a href="{{ post.link | absolute_url }}"><img src="{{ site.baseurl }}/assets/img/{{post.title}}.png" alt="{{post.title}}'s name in a typeface they chose to represent themselves."></a>
+    {% elsif post.img == false %}
+      <a href="{{ post.link | absolute_url }}"><p>{{ post.title }}</p></a>
+    {% endif %}
+  </article>
 {% endfor %}
