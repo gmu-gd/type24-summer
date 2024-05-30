@@ -2,7 +2,7 @@
 layout: tutorial
 author: Michael McDermott
 title: christopher
-img: false
+img: true
 categories: [student]
 link: #
 ---

@@ -9,14 +9,14 @@ This schedule is a rough outline for class each day. It is very subject to chang
 ### May 28 &mdash; Day 1
 #### Outline for the Day
 * Intros
-* E0: name.png
-<!-- * [E0: name.png]({{ site.baseurl }}/projects#e0) -->
+<!-- * E0: name.png -->
+* [E0: name.png]({{ site.baseurl }}/projects#e0)
 * Overview (slides)
 * Syllabus and Grades
 * Letterforms (slides)
 * Introduce Figma
-* P1: Paper Letters
-<!-- * [P1: Paper Letters]({{ site.baseurl }}/projects/p1/) -->
+<!-- * P1: Paper Letters -->
+* [P1: Paper Letters]({{ site.baseurl }}/projects/p1/)
 
 #### Resources
 * Adobe: [Picking the right font: serif vs. sans serif.](https://www.adobe.com/creativecloud/design/discover/serif-vs-sans-serif.html)
@@ -35,8 +35,8 @@ This schedule is a rough outline for class each day. It is very subject to chang
 * Critique
 * Matching Game
 * Type Styles (Slides)
-* E1: Letter Cropping
-<!-- * [E1: Letter Cropping]({{ site.baseurl }}/projects#e1) -->
+<!-- * E1: Letter Cropping -->
+* [E1: Letter Cropping]({{ site.baseurl }}/projects#e1)
 
 #### Due Next Class
 * P1.2: Paper name
