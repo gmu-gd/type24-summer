@@ -30,7 +30,7 @@ This schedule is a rough outline for class each day. It is very subject to chang
 #### Outline for the Day
 * Share P1
 * Anatomy of Letters (Slides)
-* Cutting (Demo)
+* What is Critique (Slides)
 * Type Classification (Slides)
 * Critique
 * Matching Game
@@ -48,11 +48,12 @@ This schedule is a rough outline for class each day. It is very subject to chang
 #### Outline for the Day
 * P1: Critique of Names
 * Printing with Crop Marks (Demo)
+* Cutting (Demo)
 * Words (Slides)
 * Vector Drawing (Demo)
 * Choosing a Typeface (Slides)
-* E2: Physical Grids
-<!-- * [E2: Physical Grids]({{ site.baseurl }}/projects#e2) -->
+<!-- * E2: Physical Grids -->
+* [E2: Physical Grids]({{ site.baseurl }}/projects#e2)
 
 #### Resources
 * Typetogether: [How to Choose the Right Typeface.](https://www.type-together.com/how-to-choose-the-right-typeface)
