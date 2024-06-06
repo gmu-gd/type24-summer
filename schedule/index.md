@@ -67,12 +67,12 @@ This schedule is a rough outline for class each day. It is very subject to chang
 ### June 6 &mdash; Day 4
 #### Outline for the Day
 * Printing at Mason (Demo)
+* Look at E1
 * Sentences (Slides)
-* Physical Grids (Demo)
+* Illustrator Demo
 * Hierarchy (Slides)
 * E3: Translations
 <!-- * [E3: Translations]({{ site.baseurl }}/projects#e3) -->
-* P1: Final Critique
 * P2: Type Specimen
 <!-- * [P2: Type Specimen]({{ site.baseurl }}/projects/p2/) -->
 
@@ -84,6 +84,7 @@ This schedule is a rough outline for class each day. It is very subject to chang
 
 ### June 11 &mdash; Day 5
 #### Outline for the Day
+* P1: Final Critique
 * P2: Critique
 * Paragraphs I (Slides)
 * Digital Grids (Demo)
