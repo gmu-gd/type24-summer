@@ -704,6 +704,26 @@ p#warning {
 .w-hidden {
   visibility: hidden;
 }
+#square-grid {
+  width: 100vw;
+  background-color: #dddddd;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+#square-grid h3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+@media only screen and (min-width: 1600px) {
+  #square-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  #square-grid h3 {
+    grid-column-end: 7;
+  }
+}
  /* ==========================================================================
    Helper classes
    ========================================================================== */

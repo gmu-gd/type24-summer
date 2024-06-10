@@ -97,9 +97,11 @@ section { display: grid; grid-template-columns: 100%; grid-gap: 5vw; margin: 25p
 
 .student, .tutorial { padding: 15px; border: 3px solid #272727; cursor: pointer; }
 
-.student { margin: 0; padding: 0; font-family: rig-solid-bold-fill, sans-serif; transition: .5s ease; }
+.student { margin: 0; padding: 0; font-family: rig-solid-bold-fill, sans-serif; transition: .5s ease; display: grid; align-items: center; }
 
-.student p { text-align: center; font-size: 2.7rem; margin: 0; padding: 25px 0; text-transform: uppercase; letter-spacing: 1px; }
+.student p { text-align: center; font-size: 2.7rem; margin: 0; padding: 25px 0; line-height: 3rem; text-transform: uppercase; letter-spacing: 1px; }
+
+.student:hover, .tutorial:hover { background-color: #6ECDDC; }
 
 .student.no-link, .student.no-link:hover { border-color: #FF6B6C; background-color: #FFFFFB; cursor: default; }
 
@@ -167,7 +169,7 @@ h2.section-title { color: #6ECDDC; font-size: 2.8em; }
 
 .home-due h4 { color: #FFFFFB; margin-top: 5px; letter-spacing: 1px; }
 
-.home-due h4.update { color: #A9FFCB; }
+.due-box h4.update { color: #A9FFCB; }
 
 .home-due h5 { color: #FFFFFB; margin-top: 20px; letter-spacing: 1px; font-size: 12px; }
 
@@ -265,6 +267,12 @@ form.submitted .special input#portrait-but:invalid { border: none !important; }
 p#warning { font-size: .8em; margin: 10px 0 25px; }
 
 .w-hidden { visibility: hidden; }
+
+#square-grid { width: 100vw; background-color: #dddddd; padding: 50px; display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 20px; }
+
+#square-grid h3 { grid-column-start: 1; grid-column-end: 5; }
+
+@media only screen and (min-width: 1600px) { #square-grid { grid-template-columns: repeat(6, 1fr); } #square-grid h3 { grid-column-end: 7; } }
 
 /* ========================================================================== Helper classes ========================================================================== */
 /* Hide visually and from screen readers */
