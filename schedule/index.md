@@ -71,10 +71,10 @@ This schedule is a rough outline for class each day. It is very subject to chang
 * Sentences (Slides)
 * Illustrator Demo
 * Hierarchy (Slides)
-* E3: Translations
-<!-- * [E3: Translations]({{ site.baseurl }}/projects#e3) -->
-* P2: Type Specimen
-<!-- * [P2: Type Specimen]({{ site.baseurl }}/projects/p2/) -->
+<!-- * E3: Translations -->
+* [E3: Translations]({{ site.baseurl }}/projects#e3)
+<!-- * P2: Type Specimen -->
+* [P2: Type Specimen]({{ site.baseurl }}/projects/p2/)
 
 #### Due Next Class
 * E3: Translations
@@ -89,11 +89,11 @@ This schedule is a rough outline for class each day. It is very subject to chang
 * Paragraphs I (Slides)
 * Digital Grids (Demo)
 * Spot the Difference
-* E4: Found Letter Composition
-<!-- * [E4: Found Letter Composition]({{ site.baseurl }}/projects#e4) -->
+<!-- * E4: Making Letters -->
+* [E4: Making Letters]({{ site.baseurl }}/projects#e4)
 
 #### Due Next Class
-* E4: Found Letter Composition
+* E4: Making Letters
 * P2.2: Refined spread and first draft of title page
 
 ---
