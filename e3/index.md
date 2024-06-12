@@ -18,11 +18,17 @@ title: E3 Submissions
   <img src="{{ site.baseurl }}/assets/img/e3/compression-9.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/compression-10.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/compression-11.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/compression-12.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/compression-13.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/compression-14.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/compression-15.jpg">
   <h3>disruption</h3>
   <img src="{{ site.baseurl }}/assets/img/e3/disruption-1.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/disruption-2.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/disruption-3.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/disruption-4.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/disruption-5.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/disruption-6.jpg">
   <h3>elimination</h3>
   <img src="{{ site.baseurl }}/assets/img/e3/elimination-1.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/elimination-2.jpg">
@@ -38,6 +44,10 @@ title: E3 Submissions
   <img src="{{ site.baseurl }}/assets/img/e3/expansion-9.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/expansion-10.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/expansion-11.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/expansion-12.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/expansion-13.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/expansion-14.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/expansion-15.jpg">
   <h3>heavy</h3>
   <img src="{{ site.baseurl }}/assets/img/e3/heavy-1.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/heavy-2.jpg">
@@ -48,16 +58,22 @@ title: E3 Submissions
   <img src="{{ site.baseurl }}/assets/img/e3/heavy-7.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/heavy-8.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/heavy-9.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/heavy-10.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/heavy-11.jpg">
   <h3>lightness</h3>
   <img src="{{ site.baseurl }}/assets/img/e3/lightness-1.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/lightness-2.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/lightness-3.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/lightness-4.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/lightness-5.jpg">
   <h3>loudness</h3>
   <img src="{{ site.baseurl }}/assets/img/e3/loudness-1.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/loudness-2.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/loudness-3.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/loudness-4.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/loudness-5.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/loudness-6.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/loudness-7.jpg">
   <h3>migration</h3>
   <img src="{{ site.baseurl }}/assets/img/e3/migration-1.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/migration-2.jpg">
@@ -69,6 +85,8 @@ title: E3 Submissions
   <img src="{{ site.baseurl }}/assets/img/e3/movement-3.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/movement-4.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/movement-5.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/movement-6.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/movement-7.jpg">
   <h3>repetition</h3>
   <img src="{{ site.baseurl }}/assets/img/e3/repetition-1.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/repetition-2.jpg">
@@ -82,13 +100,19 @@ title: E3 Submissions
   <img src="{{ site.baseurl }}/assets/img/e3/repetition-10.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/repetition-11.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/repetition-12.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/repetition-13.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/repetition-14.jpg">
   <h3>silence</h3>
   <img src="{{ site.baseurl }}/assets/img/e3/silence-1.jpg">
   <h3>softness</h3>
-  <!-- <img src="{{ site.baseurl }}/assets/img/e3/softness-1.jpg"> -->
+  <img src="{{ site.baseurl }}/assets/img/e3/softness-1.jpg">
   <h3>subtraction</h3>
   <img src="{{ site.baseurl }}/assets/img/e3/subtraction-1.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/subtraction-2.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/subtraction-3.jpg">
   <h3>transition</h3>
   <img src="{{ site.baseurl }}/assets/img/e3/transition-1.jpg">
   <img src="{{ site.baseurl }}/assets/img/e3/transition-2.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/transition-3.jpg">
+  <img src="{{ site.baseurl }}/assets/img/e3/transition-4.jpg">
 </div>
