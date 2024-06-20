@@ -115,11 +115,10 @@ This schedule is a rough outline for class each day. It is very subject to chang
 ### June 18 &mdash; Day 7
 #### Outline for the Day
 * P2: Critique
-* Riso Printing (Workshop)
-* E6: Manipulations
-<!-- * [E6: Manipulations]({{ site.baseurl }}/projects#e6) -->
-* P3: Various
-<!-- * [P3: Various]({{ site.baseurl }}/projects/p3/) -->
+<!-- * E6: Manipulations -->
+* [E6: Manipulations]({{ site.baseurl }}/projects#e6)
+<!-- * P3: Various -->
+* [P3: Various]({{ site.baseurl }}/projects/p3/)
 
 #### Due Next Class
 * E6: Manipulations
@@ -131,8 +130,8 @@ This schedule is a rough outline for class each day. It is very subject to chang
 #### Outline for the Day
 * Midterm Kahoot Review
 * InDesign Booklet Demo
-* E7: Recipe
-<!-- * [E7: Recipe]({{ site.baseurl }}/projects#e7) -->
+<!-- * E7: Recipe -->
+* [E7: Recipe]({{ site.baseurl }}/projects#e7)
 
 #### Due Next Class
 * E7: Recipe Sampler
