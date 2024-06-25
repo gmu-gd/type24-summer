@@ -142,9 +142,6 @@ This schedule is a rough outline for class each day. It is very subject to chang
 ### June 25 &mdash; Day 9
 #### Outline for the Day
 * Work day
-* Risograph (Workshop)
-* E8: Type Sampler
-<!-- * [E8: Type Sampler]({{ site.baseurl }}/projects#e8) -->
 
 #### Due Next Class
 * E8: Type Sampler
@@ -155,7 +152,7 @@ This schedule is a rough outline for class each day. It is very subject to chang
 ### June 27 &mdash; Day 10
 #### Outline for the Day
 * P3: Critique
-* E9: Social Type
+* E8: Social Type
 <!-- * [E9: Social Type]({{ site.baseurl }}/projects#e9) -->
 
 #### Due Next Class
@@ -167,7 +164,8 @@ This schedule is a rough outline for class each day. It is very subject to chang
 ### July 2 &mdash; Day 11
 #### Outline for the Day
 * Individual Meetings
-* Letterpress (Workshop)
+* E8: Type Sampler
+<!-- * [E8: Type Sampler]({{ site.baseurl }}/projects#e8) -->
 
 #### Due Next Class
 * P3.5: Various, check project page or Blackboard
@@ -185,7 +183,7 @@ This schedule is a rough outline for class each day. It is very subject to chang
 
 ### July 9 &mdash; Day 13
 * P3: Critique
-* Bookbinding (Workshop)
+* On campus workshops
 
 #### Due Next Class
 * P3.6 Various, check project page or Blackboard
@@ -195,7 +193,6 @@ This schedule is a rough outline for class each day. It is very subject to chang
 ### July 11 &mdash; Day 14
 #### Outline for the Day
 * P3: Critique
-* Zines (Workshop)
 
 #### Due Next Class
 * P3 Final: Various, check project page or Blackboard
