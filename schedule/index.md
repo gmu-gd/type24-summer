@@ -152,11 +152,8 @@ This schedule is a rough outline for class each day. It is very subject to chang
 ### June 27 &mdash; Day 10
 #### Outline for the Day
 * P3: Critique
-* E8: Social Type
-<!-- * [E9: Social Type]({{ site.baseurl }}/projects#e9) -->
 
 #### Due Next Class
-* E9: Social Type
 * P3.4: Various, check project page or Blackboard
 
 ---
@@ -164,11 +161,12 @@ This schedule is a rough outline for class each day. It is very subject to chang
 ### July 2 &mdash; Day 11
 #### Outline for the Day
 * Individual Meetings
-* E8: Type Sampler
-<!-- * [E8: Type Sampler]({{ site.baseurl }}/projects#e8) -->
+<!-- * E8: Type Sampler -->
+* [E8: Type Sampler]({{ site.baseurl }}/projects#e8)
 
 #### Due Next Class
 * P3.5: Various, check project page or Blackboard
+* E8: Type Sampler
 
 ---
 
@@ -183,15 +181,18 @@ This schedule is a rough outline for class each day. It is very subject to chang
 
 ### July 9 &mdash; Day 13
 * P3: Critique
-* On campus workshops
+* E9: Social Type
+<!-- * [E9: Social Type]({{ site.baseurl }}/projects#e9) -->
 
 #### Due Next Class
 * P3.6 Various, check project page or Blackboard
+* E9: Social Type
 
 ---
 
 ### July 11 &mdash; Day 14
 #### Outline for the Day
+* On campus workshops
 * P3: Critique
 
 #### Due Next Class

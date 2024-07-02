@@ -19,6 +19,12 @@
           <span class="due">All due {% assign seconds = 5 | times: 24 | times: 60 | times: 60 %}{{ post.date | date: "%s" | plus: seconds | date: "%B %d" }} at 4:30pm</span>
         </article>
       {% endif %}
+      {% if post.day == "week" %}
+        <article class="home-due">
+          {{ post.content }}
+          <span class="due">All due {% assign seconds = 7 | times: 24 | times: 60 | times: 60 %}{{ post.date | date: "%s" | plus: seconds | date: "%B %d" }} at 4:30pm</span>
+        </article>
+      {% endif %}
     {% endif %}
     {% assign counter = counter | plus: 1 %}
   {% endfor %}
