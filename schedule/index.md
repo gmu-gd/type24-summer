@@ -181,8 +181,8 @@ This schedule is a rough outline for class each day. It is very subject to chang
 
 ### July 9 &mdash; Day 13
 * P3: Critique
-* E9: Social Type
-<!-- * [E9: Social Type]({{ site.baseurl }}/projects#e9) -->
+<!-- * E9: Social Type -->
+* [E9: Social Type]({{ site.baseurl }}/projects#e9)
 
 #### Due Next Class
 * P3.6 Various, check project page or Blackboard
@@ -192,7 +192,7 @@ This schedule is a rough outline for class each day. It is very subject to chang
 
 ### July 11 &mdash; Day 14
 #### Outline for the Day
-* On campus workshops
+<!-- * On campus workshops -->
 * P3: Critique
 
 #### Due Next Class
